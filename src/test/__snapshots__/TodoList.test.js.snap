@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render todolist component 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Enter Todo"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn-todo"
+      data-testid="btn"
+      onClick={[Function]}
+    >
+      Add Todo
+    </button>
+  </form>
+  <h3>
+    Todo:
+  </h3>
+  <ul
+    data-testid="ulTodo"
+  />
+  <h3>
+    Done:
+  </h3>
+  <ul
+    data-testid="ulDone"
+  />
+</div>
+`;
+
+exports[`should return button 1`] = `
+Array [
+  <button
+    class="btn-todo"
+    data-testid="btn"
+  >
+    Add Todo
+  </button>,
+]
+`;
+
+exports[`should return input 1`] = `
+<input
+  placeholder="Enter Todo"
+  type="text"
+  value=""
+/>
+`;

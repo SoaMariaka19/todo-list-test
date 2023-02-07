@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 500px;
+    background-color: #fff;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 0.5em;
+    margin-right: 0.5 em;
+    font-size: 1em;
+    width: calc(100% - 4em);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #BFACC8;
+    border: none;
+    width: 100px;
+    margin-left: 12px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    margin-top: 1em;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5em;
+    margin-left:10px;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+  .remove-button {
+    background-color: #BFACC8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .task-name {
+    padding-right: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+  
+ 
+
+
+
+
